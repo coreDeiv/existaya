@@ -32,4 +32,15 @@
   &-link {
     padding: 0;
   }
+  &-light {
+    background-color: $white;
+    border: 1px solid $white;
+    padding: 10px 30px;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  &-outline {
+    background-color: transparent;
+  }
 }

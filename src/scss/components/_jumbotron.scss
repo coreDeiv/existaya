@@ -49,6 +49,12 @@
       font-size: 1.25rem; 
       color: rgba($white, .75);
       line-height: 1;
+      &.ah-card_title {
+        display: flex;
+        justify-content: flex-start;
+        font-size: 4rem;
+        line-height: 1.2;
+      }
     }
     h1 { 
       font-size: 4.5rem; 
@@ -82,6 +88,36 @@
       display: flex;
       justify-content: space-between;
       a { width: 50%; }
+    }
+    &_success, &_danger {
+      display: flex;
+      margin-bottom: 2rem;
+      align-items: center;
+      i, svg {
+        background-color: $primary;
+        width: 75px;
+        height: 75px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3rem;
+        color: $white;
+        margin-right: 1rem;
+      }
+      strong  {
+        font-size: 2rem;
+        color: $white;
+        margin-right: 1rem;
+      }
+    }
+    &_danger i, svg {
+      background-color: $secondary !important;
+    }
+    &_info--button {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
 }

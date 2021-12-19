@@ -23,8 +23,8 @@
         font-size: 3rem;
         margin: 0 .5rem;
       }
-      width: auto;
-      min-width: 50%;
+      width: 50%;
+      min-width: 120px;
     }
     &_dislike { 
       background-color: rgba($secondary, .75);
@@ -35,8 +35,8 @@
         font-size: 3rem;
         margin: 0 .5rem;
       }
-      width: auto;
-      min-width: 50%;
+      width: 50%;
+      min-width: 120px;
     }
   }
 }
