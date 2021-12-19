@@ -1,4 +1,22 @@
-* {
-  margin: 0;
-  padding: 0;
-}
+// Abstracts
+@import "abstracts/variables";
+@import "abstracts/placeholders";
+@import "abstracts/mixins";
+
+// Base
+@import "base/reset";
+@import "base/typography";
+
+// Components
+@import "components/jumbotron";
+
+// Layout
+@import "layout/footer";
+@import "layout/header";
+
+// Pages
+@import "pages/home";
+
+// Vendors:
+@import "vendors/skeleton";
+@import "vendors/normalize";

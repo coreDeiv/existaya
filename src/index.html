@@ -5,17 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Coredeiv | Portfolio</title>
+    <title>Existaya - Prueba tecnica</title>
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f953dcffa0.js" crossorigin="anonymous"></script>
   </head>
   <body class="dark">
 
-    @@include('web/index/_main.html')
-    @@include('web/partials/_lang.html')
+    @@include('web/index/_header.html')
 
-    <!-- @@include('web/partials/_threejs.html') -->
+    <main>
+      @@include('web/partials/_jumbotron.html')
+    </main>
+
+    @@include('web/index/_footer.html')
+
     <script src="js/index.js"></script>
   </body> 
 </html>

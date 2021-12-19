@@ -1,0 +1,65 @@
+/* --- Caolors --- */
+
+// Root
+:root {
+
+  // Colors
+  --existaya-ah-white:      #fff;
+  --existaya-ah-black:      #000;
+  --existaya-ah-gray:       #ccc;
+  --existaya-ah-primary:    #00b0a6;
+  --existaya-ah-secondary:  #ffa300;
+  --existaya-ah-tertiary:   #ececec;
+  --existaya-ah-dark:       #303030;
+  --existaya-ah-light:      #eff2f7;
+
+  // Spacings
+  --existaya-ah-padding-card:          3rem;
+  --existaya-ah-padding-card-offset:   3rem -3rem -3rem -3rem;
+
+}
+
+// Main
+$white:       #fff          !default;
+$black:       #000          !default;
+$gray:        #ccc          !default;
+
+// Theme
+$primary:     #00b0a6       !default;
+$secondary:   #ffa300       !default;
+$tertiary:    #ececec       !default;
+$dark:        #303030       !default;
+$light:       #eff2f7       !default;
+
+// States
+$danger:      #ff0000       !default;
+$success:     #00ff00       !default;
+$warning:     #ffd700       !default;
+$info:        #00b0a6       !default;
+
+/* Fonts */
+$montserrat:  "Montserrat", sans-serif, serif !default;
+
+/* Media Queries Var */
+$breakpoints: (
+
+    // Phones
+    "phone-xs":              375px,  
+    "phone-sm":              420px,  
+    "phone-md":              580px,
+    "phone-lg":              640px,
+    "phone-xl":              750px,
+
+    // Tablets
+    "tablet-sm":             830px,
+    "tablet-md":             910px,
+    "tablet-lg":            1024px,
+
+    // Desktops
+    "desktop-sm":           1100px,
+    "desktop-md":           1280px,
+    "desktop-lg":           1440px,
+    "desktop-xl":           1670px,
+    "desktop-xxl":          1920px,
+
+);
