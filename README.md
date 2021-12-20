@@ -52,6 +52,10 @@ Actualmente el proyecto tiene dos formas de poder ser visualizada
 
     - Si en algun momento presenta problemas para correr el proyecto de manera local por medio de la terminal, he dejado adicional un enlace a un github pages con el contenido final del proyecto, puede ingresar a el por medio de este [link](https://coredeiv.github.io/existaya/build/index.html)
 
+## Anotaciones Adicionales
+
+    - Las imagenes presentadas en el desarrollo no son las mismas a las del Mockup debido a que el Layer de la app de diseño no presenta los elementos para descargar o especificaciones minimas como tamaños de texto, altos de texto, tamños de imagenes, etc, por ende el desarollo se si hizo lo mas exacto posible segun lo que el ojo permita ver.
+
 ### Posdata:
 
 Agradeceria de parte de Existaya un respuesta, aunque sea una negativa, no me dejen con la duda, por favor.
