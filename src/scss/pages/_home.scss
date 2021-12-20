@@ -83,6 +83,41 @@
           font-weight: 500;
           color: $white;
           margin-bottom: 0;
+          position: relative;
+          &.more-likes::before {
+            font-family: "Font Awesome 5 Free";
+            content: "\f164";
+            display: inline-block;
+            vertical-align: middle;
+            font-weight: 900;
+            position: absolute;
+            left: -27.5px;
+            top: 10px;
+            font-size: 1.5rem;
+            background-color: $primary;
+            width: 25px;
+            height: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          &.more-dislikes::before {
+            font-family: "Font Awesome 5 Free";
+            content: "\f165";
+            display: inline-block;
+            vertical-align: middle;
+            font-weight: 900;
+            position: absolute;
+            left: -27.5px;
+            top: 10px;
+            font-size: 1.5rem;
+            background-color: $secondary;
+            width: 25px;
+            height: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
         }
         p {
           color: $white;
