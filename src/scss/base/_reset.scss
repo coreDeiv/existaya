@@ -36,3 +36,19 @@ nav, div, footer, header, main, aside {
 *::after, *::before, *:placeholder {
   box-sizing: border-box;
 }
+
+.m-auto {
+  margin: auto !important;
+}
+
+.float-unset {
+  float: unset !important;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
