@@ -17,6 +17,12 @@ Actualmente el proyecto tiene dos formas de poder ser visualizada
     git clone https://github.com/coreDeiv/existaya.git
     ```
 
+    - Una vez clonado el repositorio ingrese a la carpeta del proyecto
+
+    ```cmd
+    cd .\existaya\
+    ```
+
     - Una vez clonado es necesario que se cambie a la rama _"Master"_, ya que la rama Main a pesar de ser la principal es tan solo la de desarrollo
     
     ```git
@@ -27,12 +33,6 @@ Actualmente el proyecto tiene dos formas de poder ser visualizada
 
     ```git
     git pull origin master
-    ```
-
-    - Una vez clonado el repositorio ingrese a la carpeta del proyecto
-
-    ```cmd
-    cd .\existaya\
     ```
 
     - Para el siguiente paso es necesario que verifique que cuenta con la ualtima version de NodeJs, si es asi, corra el comandoa _"npm install"_
