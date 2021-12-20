@@ -35,7 +35,7 @@ Actualmente el proyecto tiene dos formas de poder ser visualizada
     git pull origin master
     ```
 
-    - Para el siguiente paso es necesario que verifique que cuenta con la ualtima version de NodeJs, si es asi, corra el comandoa _"npm install"_
+    - Para el siguiente paso es necesario que verifique que cuenta con la ultima version de NodeJs, si es asi, corra el comando _"npm install"_
 
     ```node
     npm install
@@ -48,7 +48,7 @@ Actualmente el proyecto tiene dos formas de poder ser visualizada
 
     - Finalmente disfrute del desarrollo
 
-2. FORMA 1: 
+2. FORMA 2: 
 
     - Si en algun momento presenta problemas para correr el proyecto de manera local por medio de la terminal, he dejado adicional un enlace a un github pages con el contenido final del proyecto, puede ingresar a el por medio de este [link](https://coredeiv.github.io/existaya/build/index.html)
 
