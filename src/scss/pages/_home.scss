@@ -17,6 +17,15 @@
       align-items: center;
       background-color: $gray;
       float: unset !important;
+      @include mq(tablet-md, max) {
+        width: 100% !important;
+      }
+      @include mq(phone-lg, max) {
+        flex-wrap: wrap;
+        &_left { width: 50%; order: 1; }
+        &_center { width: 100%; order: 3; }
+        &_right { width: 50%; order: 2; text-align: right; }
+      }
       span { 
         font-size: 2rem; 
         line-height: 1;
@@ -47,6 +56,11 @@
 
   // Previous heroes section
   &-ph {
+    &-grid {
+      @include mq(tablet-md, max) {
+        width: 100% !important;
+      }
+    }
     &-hero {
       height: 400px;
       margin-bottom: 3rem !important;

@@ -1,3 +1,4 @@
+/* Header Desktop */
 .ah {
   &-header {
     position: fixed;
@@ -15,6 +16,9 @@
     }
     nav ul, nav ul li {
       margin-bottom: 0 !important;
+    }
+    @include mq(tablet-md, max) {
+      display: none;
     }
   }
   &-container-nav {
@@ -47,6 +51,16 @@
           padding: 1rem 2rem;
         }
       }
+    }
+  }
+}
+
+/* Header Mobile */
+.ah {
+  &-header-mobile {
+    display: none;
+    @include mq(tablet-md, max) {
+      display: block;
     }
   }
 }

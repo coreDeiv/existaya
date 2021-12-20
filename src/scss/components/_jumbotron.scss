@@ -44,6 +44,15 @@
     padding: var(--existaya-ah-padding-card);
     background-color: rgba($black, 0.45);
     backdrop-filter: blur(5px);
+    @include mq(desktop-md, max) {
+      width: 60% !important;
+    }
+    @include mq(tablet-lg, max) {
+      width: 80% !important;
+    }
+    @include mq(tablet-sm, max) {
+      width: 100% !important;
+    }
     * { color: rgba($white, .5); }
     span { 
       font-size: 1.25rem; 

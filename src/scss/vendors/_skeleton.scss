@@ -416,3 +416,10 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
+/* Smaller than phablet */
+@include mq(phone-xl, max) {
+  .container {
+    width: 90%; 
+  } 
+}
