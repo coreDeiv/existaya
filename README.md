@@ -17,7 +17,7 @@ Actualmente el proyecto tiene dos formas de poder ser visualizada
     git clone https://github.com/coreDeiv/existaya.git
     ```
 
-    - Una vez clonado es necesario que se cambie a la rama _"Master"_
+    - Una vez clonado es necesario que se cambie a la rama _"Master"_, ya que la rama Main a pesar de ser la principal es tan solo la de desarrollo
     
     ```git
     git checkout master
