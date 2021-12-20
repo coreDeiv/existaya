@@ -1,0 +1,33 @@
+.ah {
+  &-footer {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 4rem;
+    &-row .eleven.columns {
+      padding-top: 1rem;
+      border-top: 1px dotted $dark;
+    }
+    &_right .ah-footer-list { justify-content: flex-end; }
+  }
+  &-footer-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    &_item {
+      padding: 0.5rem;
+      &:first-child {
+        padding-left: 0;
+      }
+      a {
+        text-decoration: none;
+        span, i, svg {
+          color: $dark;
+        }
+        i, svg {
+          font-size: 3rem;
+        }
+      }
+    }
+  }
+}
