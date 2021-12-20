@@ -43,7 +43,7 @@ Actualmente el proyecto tiene dos formas de poder ser visualizada
 
     - Ya finalizada la instalacion de los paquetes necesarios (especificados en `package.json` y `gulpfile.js`) corremos el ultimo comando para mostrar el proyecto de manera local
 
-    Opcion 1: `gulp watch`
+    Opcion 1: `gulp watch`<br>
     Opcion 2: `ng start`
 
     - Finalmente disfrute del desarrollo
